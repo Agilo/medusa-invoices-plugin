@@ -24,7 +24,7 @@ __metadata:
   resolution: "@agilo/medusa-invoices-plugin@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.39.0"
-    "@medusajs/admin-sdk": "npm:2.13.1"
+    "@medusajs/admin-sdk": "npm:2.18.0"
     "@medusajs/cli": "npm:2.13.1"
     "@medusajs/framework": "npm:2.13.1"
     "@medusajs/icons": "npm:2.13.1"
@@ -2982,13 +2982,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/admin-sdk@npm:2.13.1":
-  version: 2.13.1
-  resolution: "@medusajs/admin-sdk@npm:2.13.1"
+"@medusajs/admin-sdk@npm:2.18.0":
+  version: 2.18.0
+  resolution: "@medusajs/admin-sdk@npm:2.18.0"
   dependencies:
-    "@medusajs/admin-shared": "npm:2.13.1"
-    zod: "npm:3.25.76"
-  checksum: 10c0/2b28a26300f46f2506c155183ccee0cc2873c3ee1f2e6a4c2ee23e6a684c4aad52d3115a9e91f11984b6b65089e9e32db44f356edad5ef8c934ae39e5e151284
+    "@medusajs/admin-shared": "npm:2.18.0"
+    zod: "npm:4.2.0"
+  checksum: 10c0/acf76fae78e5d9bf051f9592785636575753e0216aad84d0819a32241818cb1ac10112671678b47d4eaefe0002b06887d9b6f46c4190ac8df7cde5c481577973
   languageName: node
   linkType: hard
 
@@ -2996,6 +2996,13 @@ __metadata:
   version: 2.13.1
   resolution: "@medusajs/admin-shared@npm:2.13.1"
   checksum: 10c0/4215b8ef54b7591beeb3fac04a03c0656ff840590229bc9891b5e6382c44686e3af1d854a0a857d3b917a1301db079a60fafee27e342dfbd3af3a1e2f782e7ee
+  languageName: node
+  linkType: hard
+
+"@medusajs/admin-shared@npm:2.18.0":
+  version: 2.18.0
+  resolution: "@medusajs/admin-shared@npm:2.18.0"
+  checksum: 10c0/8426e665b028aa164cc9b184322eb567f4631ba9dd64270f77c72a874606ab4921ef85a38eb34fa4d269acd25a3825ca31403f01237f69927a73c033a001e568
   languageName: node
   linkType: hard
 
@@ -20061,6 +20068,13 @@ __metadata:
   version: 3.25.76
   resolution: "zod@npm:3.25.76"
   checksum: 10c0/5718ec35e3c40b600316c5b4c5e4976f7fee68151bc8f8d90ec18a469be9571f072e1bbaace10f1e85cf8892ea12d90821b200e980ab46916a6166a4260a983c
+  languageName: node
+  linkType: hard
+
+"zod@npm:4.2.0":
+  version: 4.2.0
+  resolution: "zod@npm:4.2.0"
+  checksum: 10c0/c9fa563f4866f5554c84728f69fe01979d5ab41a104176a4b9f1a182fa670b6e55ffe1be81863dc03d8b36c90ee9e917353b429f4aa3615b5f63dc4c8d5d92d3
   languageName: node
   linkType: hard
 

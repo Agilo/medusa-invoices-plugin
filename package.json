@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.0",
-    "@medusajs/admin-sdk": "2.13.1",
+    "@medusajs/admin-sdk": "2.18.0",
     "@medusajs/cli": "2.13.1",
     "@medusajs/framework": "2.13.1",
     "@medusajs/icons": "2.13.1",
