@@ -36,7 +36,8 @@
     "plugin",
     "medusa-plugin-other",
     "medusa-plugin",
-    "medusa-v2"
+    "medusa-v2",
+    "medusa-plugin-integration"
   ],
   "scripts": {
     "build": "rsync -a --delete ./src/templates/ ./src/admin/templates/ && medusa plugin:build",
