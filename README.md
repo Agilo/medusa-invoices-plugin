@@ -42,7 +42,7 @@ A comprehensive invoice generation plugin for MedusaJS that automatically genera
 
 - MedusaJS server
 - Configured File Module (S3, local, or other provider)
-- Node.js 20+
+- Node.js 22.22.0+
 
 Visit the [Quickstart Guide](https://docs.medusajs.com/learn/installation) to set up a server.
 <br />

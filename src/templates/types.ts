@@ -1,3 +1,4 @@
+import type { DocumentProps } from "@react-pdf/renderer" with { "resolution-mode": "import" };
 import { BigNumberValue } from "@medusajs/framework/types";
 import { JSONContent } from "@tiptap/react";
 
@@ -60,7 +61,9 @@ export type TemplateProps = {
   };
 };
 
-export type TemplateRenderer = (props: TemplateProps) => Promise<React.ReactElement>;
+export type InvoiceDocumentElement = React.ReactElement<DocumentProps>;
+
+export type TemplateRenderer = (props: TemplateProps) => Promise<InvoiceDocumentElement>;
 
 export type InvoiceTemplate = {
   id: "clean" | "classic" | "compact";
