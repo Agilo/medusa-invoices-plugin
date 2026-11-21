@@ -1,4 +1,3 @@
-import * as React from "react";
 import CleanTemplate from "./styles/CleanTemplate";
 import ClassicTemplate from "./styles/ClassicTemplate";
 import CompactTemplate from "./styles/CompactTemplate";
@@ -8,17 +7,17 @@ export const templates: Record<"clean" | "classic" | "compact", InvoiceTemplate>
   clean: {
     id: "clean",
     version: "1.0.0",
-    render: async (props) => React.createElement(await CleanTemplate, props),
+    render: async (props) => (await CleanTemplate)(props),
   },
   classic: {
     id: "classic",
     version: "1.0.0",
-    render: async (props) => React.createElement(await ClassicTemplate, props),
+    render: async (props) => (await ClassicTemplate)(props),
   },
   compact: {
     id: "compact",
     version: "1.0.0",
-    render: async (props) => React.createElement(await CompactTemplate, props),
+    render: async (props) => (await CompactTemplate)(props),
   },
 };
 

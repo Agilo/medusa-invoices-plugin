@@ -208,7 +208,7 @@ const InvoiceListModal = ({ orderId, isOpen, setIsOpen }: InvoiceListModalProps)
         </FocusModal.Header>
         <FocusModal.Body className="flex flex-col h-full overflow-hidden">
           <DataTable instance={table} className="flex flex-col h-full">
-            <DataTable.Toolbar className="flex-shrink-0 p-0 m-0"></DataTable.Toolbar>
+            <DataTable.Toolbar className="shrink-0 p-0 m-0"></DataTable.Toolbar>
 
             {data?.invoices && data.invoices.length > 0 ? (
               <>
@@ -216,7 +216,7 @@ const InvoiceListModal = ({ orderId, isOpen, setIsOpen }: InvoiceListModalProps)
                   <DataTable.Table />
                 </div>
 
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <DataTable.Pagination />
                 </div>
               </>
