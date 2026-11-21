@@ -62,6 +62,7 @@ __metadata:
     "@types/node": "npm:^20.0.0"
     "@types/react": "npm:^19.3.0"
     "@types/react-dom": "npm:^19.3.0"
+    "@uiw/react-json-view": "npm:2.0.0-alpha.41"
     concurrently: "npm:^9.2.1"
     eslint: "npm:^9.39.0"
     eslint-config-prettier: "npm:^10.1.8"
@@ -7970,7 +7971,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uiw/react-json-view@npm:^2.0.0-alpha.17":
+"@uiw/react-json-view@npm:2.0.0-alpha.41, @uiw/react-json-view@npm:^2.0.0-alpha.17":
   version: 2.0.0-alpha.41
   resolution: "@uiw/react-json-view@npm:2.0.0-alpha.41"
   peerDependencies:

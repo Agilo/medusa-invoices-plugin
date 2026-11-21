@@ -114,6 +114,7 @@
     "@tiptap/pm": "^3.11.1",
     "@tiptap/react": "^3.11.1",
     "@tiptap/starter-kit": "^3.11.1",
+    "@uiw/react-json-view": "2.0.0-alpha.41",
     "lucide-react": "^0.555.0"
   }
 }

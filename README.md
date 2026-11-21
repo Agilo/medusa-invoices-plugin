@@ -15,7 +15,7 @@
 
 ## Compatibility
 
-This plugin is compatible with versions >= 2.11.3 of `@medusajs/medusa`.
+This version targets Medusa 2.23 and its React 19 Admin.
 <br />
 <br />
 
