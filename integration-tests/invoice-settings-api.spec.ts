@@ -205,6 +205,48 @@ medusaIntegrationTestRunner({
             }),
           );
         });
+
+        it("accepts rich text header and footer content", async () => {
+          const headerContent = {
+            type: "doc",
+            content: [{ type: "paragraph", content: [{ type: "text", text: "Header" }] }],
+          };
+          const footerContent = {
+            type: "doc",
+            content: [{ type: "paragraph", content: [{ type: "text", text: "Footer" }] }],
+          };
+
+          const payload = {
+            template_id: "clean",
+            template_version: "1.0.0",
+            header_logo_type: "none",
+            header_logo_url: null,
+            header_logo_text: null,
+            header_content: headerContent,
+            footer_content: footerContent,
+            store_name: null,
+            store_address: null,
+            store_tax_id: null,
+            bank_account_iban: null,
+            bank_account_swift: null,
+            auto_generate_on: [],
+          };
+
+          const response = await api.post(`/admin/invoice-settings`, payload, {
+            headers: {
+              Authorization: headers["authorization"],
+              "Content-Type": "application/json",
+            },
+          });
+
+          expect(response.status).toEqual(200);
+          expect(response.data).toEqual(
+            expect.objectContaining({
+              header_content: JSON.stringify(headerContent),
+              footer_content: JSON.stringify(footerContent),
+            }),
+          );
+        });
       });
     });
   },
